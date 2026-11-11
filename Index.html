@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRONOS - Inicio</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    body {
+      background-color: #050716;
+      background-image: 
+        radial-gradient(ellipse at 15% 20%, rgba(124,92,255,0.35), transparent 50%),
+        linear-gradient(rgba(5,7,22,0.88), rgba(5,7,22,0.88)),
+        url('https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?q=80&w=1920');
+      background-attachment: fixed; background-size: cover;
+      color: #eef0ff; min-height: 100vh;
+    }
+    header { background: rgba(5,7,22,0.96); padding:1rem 2rem; display:flex; justify-content:space-between; position:sticky; top:0; z-index:10; border-bottom:1px solid rgba(124,92,255,0.3); }
+    main { max-width:1100px; margin:2rem auto; padding:2.5rem; background:rgba(10,12,32,0.94); border-radius:24px; border:1px solid rgba(124,92,255,0.3); }
+    .card { background:rgba(18,20,48,0.98); border:1px solid rgba(124,92,255,0.35); border-radius:18px; padding:1.8rem; }
+    .marquesina-top { background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.6rem 0; font-family:Orbitron; font-weight:700; }
+    .imagen { height:400px; border-radius:16px; border:2px solid rgba(124,92,255,0.4); background:url('https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?q=80&w=1600') center/cover; }
+    footer { background:rgba(5,7,22,0.96); padding:1.5rem; text-align:center; border-top:1px solid rgba(124,92,255,0.2); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div style="font-family:Orbitron; font-weight:900;">CRON<span style="color:#00e5ff">OS</span></div>
+    <nav>
+      <ul style="display:flex; list-style:none; gap:.8rem">
+        <li><a href="index.html" style="color:#fff; background:rgba(124,92,255,0.4); padding:.4rem .8rem; border-radius:20px; text-decoration:none">Inicio</a></li>
+        <li><a href="contenido.html" style="color:#9aa0c3; text-decoration:none">Contenido Principal</a></li>
+        <li><a href="informacion.html" style="color:#9aa0c3; text-decoration:none">Información Adicional</a></li>
+        <li><a href="contacto.html" style="color:#9aa0c3; text-decoration:none">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="marquesina-top">
+    <marquee scrollamount="8">✨ CRONOS - EL UNIVERSO ES UNA MÁQUINA DEL TIEMPO ✨</marquee>
+  </div>
+
+  <main>
+    <h1 style="font-family:Orbitron;">Cada vez que miras el cielo, miras el pasado</h1>
+    <div class="card" style="margin-top:1.5rem">
+      <div class="imagen"></div>
+      <p style="color:#a0a6c8; margin-top:1rem;">¿Qué es Cronos?
+Cronos es más que una página de historia. Es un viaje en el tiempo
+Aquí no solo memorizarás fechas, entenderás por qué pasaron las cosas. Desde la Revolución Mexicana hasta los grandes cambios del mundo, desglosamos cada época en líneas de tiempo, infografías y datos clave que sí se te quedan.
+ Si el tiempo lo explica todo, nosotros te ayudamos a entenderlo.</p>
+      <!-- BOTONES CONECTADOS -->
+      <div style="margin-top:1.2rem; display:flex; gap:1rem;">
+        <a href="contenido.html" style="background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.9rem 1.8rem; border-radius:30px; text-decoration:none; font-weight:700;">Viajar al pasado </a>
+        <a href="informacion.html" style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.2); color:#fff; padding:.9rem 1.5rem; border-radius:30px; text-decoration:none;">¿Qué tan lejos podemos ver?</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>Santiago Bautista Ramirez</footer>
+</body>
+</html>
