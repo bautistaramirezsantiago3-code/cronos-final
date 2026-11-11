@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRONOS - Información Adicional</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    body { 
+      background-color:#050716; 
+      background-image: radial-gradient(ellipse at 15% 20%, rgba(124,92,255,0.35), transparent 50%), linear-gradient(rgba(5,7,22,0.88), rgba(5,7,22,0.88)), url('https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?q=80&w=1920'); 
+      background-attachment:fixed; background-size:cover; color:#eef0ff; 
+    }
+    header { background:rgba(5,7,22,0.96); padding:1rem 2rem; display:flex; justify-content:space-between; position:sticky; top:0; border-bottom:1px solid rgba(124,92,255,0.3); }
+    main { max-width:1200px; margin:2rem auto; padding:2.5rem; background:rgba(10,12,32,0.94); border-radius:24px; border:1px solid rgba(124,92,255,0.3); }
+    .layout-3 { display:grid; grid-template-columns:260px 1fr 300px; gap:1.5rem; }
+    .card { background:rgba(18,20,48,0.98); border:1px solid rgba(124,92,255,0.35); border-radius:18px; padding:1.5rem; margin-bottom:1.5rem; }
+    .timeline { border-left:2px dashed rgba(124,92,255,0.4); padding-left:1.8rem; margin-left:.6rem; }
+    .ev { margin-bottom:2rem; background:rgba(0,0,0,0.4); padding:1rem; border-radius:10px; border-left:2px solid #00e5ff; }
+    @media(max-width:900px){ .layout-3{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="font-family:Orbitron; font-weight:900;">CRON<span style="color:#00e5ff">OS</span></div>
+    <nav>
+      <ul style="display:flex; list-style:none; gap:.8rem">
+        <li><a href="index.html" style="color:#9aa0c3; text-decoration:none">Inicio</a></li>
+        <li><a href="contenido.html" style="color:#9aa0c3; text-decoration:none">Contenido</a></li>
+        <li><a href="informacion.html" style="color:#fff; background:rgba(124,92,255,0.4); padding:.4rem .8rem; border-radius:20px; text-decoration:none">Información</a></li>
+        <li><a href="contacto.html" style="color:#9aa0c3; text-decoration:none">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 style="font-family:Orbitron">Información Adicional</h1>
+    <p style="color:#8e95b8; margin-bottom:1.5rem">¿Que pasaba en la tierra cuando esta luz salio?</p>
+
+    <div class="layout-3">
+      <aside class="card">
+        <h3>Glosario</h3>
+        <p style="color:#a0a6c8; font-size:.9rem; margin-top:1rem;"><b style="color:#00e5ff">Año luz:</b> Distancia que recorre la luz en un año</p>
+        <p style="color:#a0a6c8; font-size:.9rem; margin-top:1rem;"><b style="color:#00e5ff">Nebulosa:</b> Nube de gas y polvo en el espacio</p>
+        <p style="color:#a0a6c8; font-size:.9rem; margin-top:1rem;"><b style="color:#00e5ff">Estrella muerta:</b> Remanente estelar sin funcion nuclear</p>
+      </aside>
+
+      <div class="card">
+        <h3>Linea del tiempo</h3>
+        <div class="timeline" style="margin-top:1.2rem">
+
+          <!-- AHORA SI CONECTAN AL ARCHIVO NUEVO -->
+          <div class="ev">
+            <strong>Origen del Universo</strong><br>
+            <a href="detalle-tiempo.html#origen" style="display:inline-block; margin-top:.6rem; background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.5rem 1rem; border-radius:20px; text-decoration:none; font-size:.85rem;">
+              Ver información
+            </a>
+          </div>
+
+          <div class="ev">
+            <strong>Formación de galaxias</strong><br>
+            <a href="detalle-tiempo.html#galaxias" style="display:inline-block; margin-top:.6rem; background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.5rem 1rem; border-radius:20px; text-decoration:none; font-size:.85rem;">
+              Ver información
+            </a>
+          </div>
+
+          <div class="ev">
+            <strong>Sistema Solar</strong><br>
+            <a href="detalle-tiempo.html#sistema" style="display:inline-block; margin-top:.6rem; background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.5rem 1rem; border-radius:20px; text-decoration:none; font-size:.85rem;">
+              Ver información
+            </a>
+          </div>
+
+          <div class="ev">
+            <strong>Era actual </strong><br>
+            <a href="detalle-tiempo.html#actual" style="display:inline-block; margin-top:.6rem; background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.5rem 1rem; border-radius:20px; text-decoration:none; font-size:.85rem;">
+              Ver información
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <aside class="card">
+        <h3>CURIOSIDADES</h3>
+        <marquee direction="up" scrollamount="3" height="250px" style="margin-top:1rem">
+          <div style="border:1px solid rgba(0,229,255,0.2); background:rgba(0,229,255,0.08); border-radius:12px; padding:.9rem; margin-bottom:.9rem;">🌙ves la luna como era hace 1.28 segundos</div>
+          <div style="border:1px solid rgba(0,229,255,0.2); background:rgba(0,229,255,0.08); border-radius:12px; padding:.9rem;">☀️ el sol que ves ya tiene 8 minutos en el pasado</div>
+          <div style="border:1px solid rgba(0,229,255,0.2); background:rgba(0,229,255,0.08); border-radius:12px; padding:.9rem;">🚀 La luz le da 7 vueltas a la tierra en 1 segundo</div>
+        </marquee>
+      </aside>
+    </div>
+
+    <div style="margin-top:1.5rem; display:flex; gap:1rem;">
+      <a href="index.html" style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.2); color:#fff; padding:.8rem 1.2rem; border-radius:30px; text-decoration:none;"> Regresar al inicio</a>
+      <a href="contacto.html" style="background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.8rem 1.2rem; border-radius:30px; text-decoration:none;">Contactar</a>
+    </div>
+  </main>
+</body>
+</html>

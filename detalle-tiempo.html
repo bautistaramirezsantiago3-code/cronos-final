@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRONOS - Detalle Línea del Tiempo</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    body { background-color:#050716; background-image: radial-gradient(ellipse at 15% 20%, rgba(124,92,255,0.35), transparent 50%), linear-gradient(rgba(5,7,22,0.88), rgba(5,7,22,0.88)), url('https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?q=80&w=1920'); background-attachment:fixed; background-size:cover; color:#eef0ff; }
+    header { background:rgba(5,7,22,0.96); padding:1rem 2rem; display:flex; justify-content:space-between; position:sticky; top:0; border-bottom:1px solid rgba(124,92,255,0.3); }
+    main { max-width:1100px; margin:2rem auto; padding:2.5rem; background:rgba(10,12,32,0.94); border-radius:24px; border:1px solid rgba(124,92,255,0.3); }
+    .card { background:rgba(18,20,48,0.98); border:1px solid rgba(124,92,255,0.35); border-radius:18px; padding:1.8rem; margin-bottom:2rem; }
+    .detalle { border-left:3px solid #00e5ff; padding-left:1.5rem; scroll-margin-top:120px; }
+    .marquesina-top { background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.6rem 0; font-family:Orbitron; font-weight:700; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="font-family:Orbitron; font-weight:900;">CRON<span style="color:#00e5ff">OS</span></div>
+    <nav>
+      <ul style="display:flex; list-style:none; gap:.8rem">
+        <li><a href="index.html" style="color:#9aa0c3; text-decoration:none">Inicio</a></li>
+        <li><a href="contenido.html" style="color:#9aa0c3; text-decoration:none">Contenido</a></li>
+        <li><a href="informacion.html" style="color:#fff; background:rgba(124,92,255,0.4); padding:.4rem .8rem; border-radius:20px; text-decoration:none">Información</a></li>
+        <li><a href="contacto.html" style="color:#9aa0c3; text-decoration:none">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="marquesina-top">
+    <marquee scrollamount="8">📜 INFORMACIÓN DETALLADA DE LA LÍNEA DEL TIEMPO 📜</marquee>
+  </div>
+
+  <main>
+    <h1 style="font-family:Orbitron">Conoce mas del universo</h1>
+
+    <div id="origen" class="card detalle">
+      <h2 style="color:#00e5ff; font-family:Orbitron;">Origen del Universo — 13.8 mil millones años</h2>
+      <p style="color:#a0a6c8; margin-top:1rem; line-height:1.7;">Big Bang. Toda la materia, energía, espacio y tiempo concentrados. La luz más antigua es el fondo cósmico de microondas que aún vemos.</p>
+      <a href="informacion.html" style="color:#7c5cff; font-size:.9rem; display:inline-block; margin-top:1rem;"> Volver a la línea del tiempo</a>
+    </div>
+
+    <div id="galaxias" class="card detalle">
+      <h2 style="color:#00e5ff; font-family:Orbitron;">Formación de Galaxias — 5-8 mil millones años</h2>
+      <p style="color:#a0a6c8; margin-top:1rem; line-height:1.7;">Las nubes de hidrógeno colapsaron y formaron las primeras estrellas. Esas estrellas se agruparon en galaxias. La Vía Láctea es una de billones.</p>
+      <a href="informacion.html" style="color:#7c5cff; font-size:.9rem;">Volver a la línea del tiempo</a>
+    </div>
+
+    <div id="sistema" class="card detalle">
+      <h2 style="color:#00e5ff; font-family:Orbitron;">Sistema Solar — 4.6 mil millones años</h2>
+      <p style="color:#a0a6c8; margin-top:1rem; line-height:1.7;">De una nebulosa de gas y polvo nació el Sol. El material restante formó planetas, incluida la Tierra.</p>
+      <a href="informacion.html" style="color:#7c5cff; font-size:.9rem;">Volver a la línea del tiempo</a>
+    </div>
+
+    <div id="actual" class="card detalle">
+      <h2 style="color:#00e5ff; font-family:Orbitron;">Era Actual — 2026</h2>
+      <p style="color:#a0a6c8; margin-top:1rem; line-height:1.7;">Con el James Webb vemos galaxias de hace 13 mil millones de años. Estamos viendo literalmente el pasado del universo.</p>
+      <div style="margin-top:1rem; display:flex; gap:1rem;">
+        <a href="informacion.html" style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.2); color:#fff; padding:.6rem 1rem; border-radius:20px; text-decoration:none;"> Línea del tiempo</a>
+        <a href="contacto.html" style="background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.6rem 1rem; border-radius:20px; text-decoration:none;">Contactar </a>
+      </div>
+    </div>
+
+  </main>
+</body>
+</html>

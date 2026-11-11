@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRONOS - Contacto</title>
+<link rel="stylesheet" href="estilos.css">
+<style>
+body{background:#050716 !important; color:#eef0ff}
+.marquesina-bottom{background:rgba(5,7,22,0.9); border-top:2px solid #7c5cff; border-bottom:2px solid #00e5ff; color:#fff; padding:.7rem 0}
+main{max-width:1150px; margin:0 auto; padding:2rem; background:rgba(5,7,22,0.6); backdrop-filter:blur(12px); border-radius:20px; border:1px solid rgba(124,92,255,0.2)}
+.contacto{display:grid; grid-template-columns:.9fr 1.1fr; gap:2rem}
+.card{background:rgba(18,20,42,0.85); border:1px solid rgba(124,92,255,0.25); border-radius:16px; padding:1.8rem; margin-bottom:1.5rem}
+input,textarea{width:100%; background:rgba(0,0,0,0.4); border:1px solid rgba(124,92,255,0.3); border-radius:10px; padding:.8rem; color:#fff; margin:.4rem 0 1rem}
+@media(max-width:800px){.contacto{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header style="background:rgba(5,7,22,0.9); padding:1rem 2rem; display:flex; justify-content:space-between; position:sticky; top:0"><div style="font-family:Orbitron; font-weight:900; letter-spacing:4px">CRON<span style="color:#00e5ff">OS</span></div>
+<nav><ul style="display:flex; list-style:none; gap:.8rem"><li><a href="index.html" style="color:#9aa0c3; text-decoration:none">Inicio</a></li><li><a href="contenido.html" style="color:#9aa0c3; text-decoration:none">Contenido Principal</a></li><li><a href="informacion.html" style="color:#9aa0c3; text-decoration:none">Información Adicional</a></li><li><a href="contacto.html" style="color:#fff; background:rgba(124,92,255,0.3); padding:.4rem .8rem; border-radius:20px; text-decoration:none">Contacto</a></li></ul></nav></header>
+
+<div class="marquesina-bottom"><marquee scrollamount="9">📧 bautistaramirezsantiago3@gmail.com | 📞 +52 5576181912| 📍 CBTIS 29 | 🚀 ¿Qué época del universo te gustaría ver? | ✨ Respuesta en menos de 8 minutos luz ✨</marquee></div>
+
+<main>
+<h1 style="font-family:Orbitron">CONTACTO</h1>
+<div class="contacto">
+<div class="card"><h3>INFORMACION DE  CONTACTO </h3>
+<p>📧 Email: bautistaramirezsantiago3@gmail.com</p><p>📞 Tel: +52 5576181913</p><p>📍 Direccion: CBTIS 29</p>
+<div style="margin-top:1rem"><marquee behavior="alternate" direction="left" style="background:rgba(124,92,255,0.2); border-radius:20px; padding:.4rem; font-size:.8rem">🛰️ Mensaje viajando a la órbita de CRONOS...</marquee></div>
+</div>
+<div class="card"><h3>FORMULARIO OBLIGATORIO</h3>
+<form action="https://formspree.io/f/mzzbwvkl" method="POST">
+  <label>Nombre:</label><input type="text" name="nombre" required>
+  <label>Correo:</label><input type="email" name="email" required>
+  <label>Mensaje: ¿Qué época te gustaría ver?</label><textarea rows="4" name="mensaje" required></textarea>
+  <input type="hidden" name="_subject" value="Nuevo mensaje CRONOS de tu página">
+  <button type="submit" style="width:100%; background:linear-gradient(90deg,#7c5cff,#00e5ff); color:#fff; padding:.9rem; border-radius:30px; border:none; font-weight:700; cursor:pointer">Enviar formulario</button>
+</form>
+</div>
+</div>
+</main>
+<footer style="text-align:center; padding:2rem; color:#8e95b8">© SANTIAGO BAUTISTA </footer>
+</body>
+</html>
